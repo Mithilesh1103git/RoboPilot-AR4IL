@@ -1,0 +1,77 @@
+- !<AssetImportMetadata/23834c26-a69a-44c3-90a3-5fd376ddab59>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 85a40248-7c61-4db3-93a2-eeecd816e980
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 85a40248-7c61-4db3-93a2-eeecd816e980
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 93779c52-7a6c-4638-be0b-3ec26d0f2537
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/93779c52-7a6c-4638-be0b-3ec26d0f2537>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 8bdf513f-8045-4916-85cf-46c662749e3e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    cubeBlue: false
+    cubeGreen: false
+    cubeRed: false
+    messageAnchor: false
+    nextDemoTarget: false
+    progressAnchor: false
+    tolerance: false
+    trayFloor: false
+    workspaceRoot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - workspaceRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cubeRed: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cubeGreen: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cubeBlue: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      trayFloor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      nextDemoTarget: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      messageAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      progressAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tolerance: 0.001000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">WorkspaceFrameSelfTest - coordinate conversion check</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input SceneObject workspaceRoot {"hint":"WorkspaceRoot (origin of the workspace frame)"}'
+    - '// @input SceneObject cubeRed {"hint":"Cube_Red parent object"}'
+    - '// @input SceneObject cubeGreen {"hint":"Cube_Green parent object"}'
+    - '// @input SceneObject cubeBlue {"hint":"Cube_Blue parent object"}'
+    - '// @input SceneObject trayFloor {"hint":"Tray_Floor slab"}'
+    - '// @input SceneObject nextDemoTarget {"hint":"NextDemoTarget parent object"}'
+    - '// @input SceneObject messageAnchor {"hint":"MessageAnchor"}'
+    - '// @input SceneObject progressAnchor {"hint":"ProgressAnchor"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float tolerance = 0.001 {"hint":"Max allowed error per check, cm"}'
+    - '// @ui {"widget":"group_end"}'

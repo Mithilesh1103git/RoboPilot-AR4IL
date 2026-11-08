@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/ccd7b6f0-9857-4b17-a223-bdfbdcedadd8>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5559e088-6324-4e78-b15b-451381212e32
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5559e088-6324-4e78-b15b-451381212e32
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> a0b37d62-96e6-4dca-8285-a029abd19f40
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a0b37d62-96e6-4dca-8285-a029abd19f40>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: b6a622e7-896a-4b14-9e95-c122100a6b8e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    moveLogInterval: false
+    objectId: false
+    workspaceRoot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - workspaceRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      objectId: cube_red
+      moveLogInterval: 0.250000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">CubeGrabProbe - Phase 2.1 grab/projection diagnostics</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input SceneObject workspaceRoot {"hint":"WorkspaceRoot (origin of the workspace frame)"}'
+    - '// @input string objectId = "cube_red" {"hint":"Object id used in log lines"}'
+    - '// @input float moveLogInterval = 0.25 {"hint":"Seconds between movement log lines while grabbed"}'
