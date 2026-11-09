@@ -9,6 +9,8 @@
 
 ---
 
+![RoboPilot-AR4IL-Logo-Infographics](https://github.com/Mithilesh1103git/RoboPilot-AR4IL/blob/main/RoboPilot-AR4IL-Logo-Infographics.png?raw=true)
+
 ## Overview
 
 RoboPilot-AR4IL explores how Augmented Reality (AR) can make robot teaching more intuitive.
